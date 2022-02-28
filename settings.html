@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="settings.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b981dac45e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="flex-center flex-column">
+      <h1>Settings</h1>
+      <div class="setting-container">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="40" value="4" class="slider" id="numQSlider">
+        </div>
+        <div class="setting-text-container">
+          <p class="label-text">Number of Questions:</p>
+          <p id="numQText" class="number-text">0</p>
+        </div>
+      </div>
+      <button class="btn" id="settingsToHome" onclick="homeClicked()">Go Home<i class="fa-solid fa-house-chimney"></i></button>
+    </div>
+  </div>
+  <script src="settings.js"></script>
+</body>
+</html>

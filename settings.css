@@ -1,0 +1,50 @@
+body {
+  color: #fff;
+}
+
+.setting-container {
+  width: 100%;
+  font-size: 6rem;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 0px 20px 15px 20px;
+  margin-bottom: 2.6rem;
+  min-width: 34rem;
+}
+.setting-text-container {
+  width: 100%;
+  display: flex;
+  margin-top: 0.8rem;
+  /* border: 1px solid red; */
+}
+.number-text {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.slidecontainer {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.slider {
+  appearance: none;
+  width: 100%;
+  height: 0.4rem;
+  border-radius: 15px;
+  background: #d3d3d3;
+  outline: none;
+  padding: 0; /* This was the reason it was so thick */
+  /* border: 1px solid red; */
+  min-height: 0px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgb(18, 93, 255) 0%, rgb(0, 102, 255) 100%);
+  cursor: ew-resize;
+}
